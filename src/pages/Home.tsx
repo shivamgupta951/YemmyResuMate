@@ -22,18 +22,18 @@ const Home = () => {
         <h3 className="text-2xl text-center my-20 md:text-3xl flex justify-center items-center bg-gradient-to-r from-purple-500 to-red-700 font-thin bg-clip-text text-transparent">
           Review your submissions and check AI Powered feedback!
         </h3>
-        <div className="w-[80%]">
+        <div className="w-[100%] px-20 bg-gradient-to-tr outline-2 outline-dashed outline-green-800 from-black via-[#011626] to-black p-5">
           {resumes.length > 0 && (
-            <div className="my-2 border flex flex-wrap justify-around items-center">
+            <div className="my-2 flex flex-wrap justify-around items-center">
               {resumes.map((resume) => (
                 <ResumeCard key={resume.id} resume={resume} />
               ))}
             </div>
           )}
         </div>
-        <div className="border w-[70%] min-h-[500px] flex justify-center items-center">
+        {/* <div className="border w-[70%] min-h-[500px] flex justify-center items-center">
           <BoxesAnimation />
-        </div>
+        </div> */}
       </main>
     </>
   );
