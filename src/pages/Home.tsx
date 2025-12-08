@@ -22,7 +22,7 @@ const Home = () => {
         <h3 className="text-2xl text-center my-20 md:text-3xl flex justify-center items-center bg-gradient-to-r from-purple-500 to-red-700 font-thin bg-clip-text text-transparent">
           Review your submissions and check AI Powered feedback!
         </h3>
-        <div className="w-[100%] px-20 bg-gradient-to-tr outline-2 outline-dashed outline-green-800 from-black via-[#011626] to-black p-5">
+        <div className="w-[100%] px-20 bg-gradient-to-t outline-2 outline-dashed outline-green-800 from-[#011626] to-[#011626] via-[#230707] p-5">
           {resumes.length > 0 && (
             <div className="my-2 flex flex-wrap justify-around items-center">
               {resumes.map((resume) => (

@@ -17,8 +17,8 @@ const Bar = () => {
         ></motion.div>
       </div>
 
-      <div className="bg-gradient-to-r font-bold from-red-700 to-blue-500 mb-10 h-8 opacity-40 flex justify-center items-center w-[90%] text-[50%] px-8 md:px-4 rounded-md md:text-[80%] md:w-[70%] lg:w-[60%]">
-        <div className="md:w-[85%] lg:w-[65%] text-center text-white">
+      <div className="bg-gradient-to-r font-bold from-red-700 to-blue-500 mb-10 h-8 opacity-60 flex justify-center items-center w-[90%] text-[50%] px-8 md:px-4 rounded-md md:text-[80%] md:w-[70%] lg:w-[60%]">
+        <div className="md:w-[85%] lg:w-[65%] text-center text-white bg-black py-1 rounded-2xl">
           Welcome to the YemmyResuMate🐼!
         </div>
       </div>

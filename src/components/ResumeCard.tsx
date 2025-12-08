@@ -13,9 +13,9 @@ const ResumeCard = ({
 
   return (
       <Link to={`/resume/${id}`} className="w-[47%]">
-        <div className="flex border my-2 flex-row gap-2 rounded-lg justify-around min-h-[110px] max-sm:flex-col items-center max-md:justify-center max-md:items-center bg-gradient-to-b from-black to-gray-900 relative p-2">
+        <div className="flex border my-2 flex-row gap-2 rounded-lg justify-between min-h-[110px] max-sm:flex-col items-center max-md:justify-center max-md:items-center bg-gradient-to-b from-black to-gray-900 relative">
           <div className="text-purple-800 text-xl absolute top-4 left-2 animate-bounce"><GiAnimalHide/></div>
-          <div className="flex flex-col justify-center items-center gap-2 w-[50%] bg-gray-800 rounded-2xl py-10 transition-all transform duration-300 ease-in-out hover:scale-105 ">
+          <div className="flex flex-col justify-center items-center gap-2 w-[50%] bg-gray-800 rounded-2xl py-10 transition-all transform duration-300 ease-in-out hover:scale-105 ml-4">
             {companyName && (
               <h2 className="font-extrabold bg-gradient-to-r bg-clip-text from-blue-700 to-orange-500 text-transparent break-words px-4 ">
                 {companyName}
@@ -32,7 +32,7 @@ const ResumeCard = ({
           </div>
           </div>
           {resumeUrl && (
-            <div className="animate-in fade-in duration-1000">
+            <div className="animate-in fade-in duration-1000 border-l-[2px] bg-gradient-to-t from-black via-gray-800 to-primary p-2 pl-6 py-4">
               <div className="w-full h-full">
                 <img
                   src={resumeUrl}
